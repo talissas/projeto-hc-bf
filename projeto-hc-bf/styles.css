@@ -1,0 +1,119 @@
+.titulo-principal {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 4em;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+}
+
+.titulo-secundario {
+  margin: 7em 0em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 50;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+}
+
+.cadastro {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  margin: -4em;
+}
+
+#form input.button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 5em;
+  height: 3.2em;
+  border: none;
+  background-color: white;
+  outline: none;
+  opacity: 1;
+  position: absolute;
+  margin-left: 1%;
+}
+
+#form input.button:hover {
+  background-color: black;
+  color: white;
+}
+
+#form input.fmail {
+  background-color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 40em;
+  height: 3em;
+  font-weight: 100;
+  color: black;
+  outline: none;
+  border: none;
+}
+
+body {
+  background-image: url("guitar2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+  font-weight: 400;
+}
+
+a:hover {
+  font-weight: 600;
+  color: white;
+  text-decoration: underline;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: 100;
+  color: white;
+  margin: 0 0;
+  text-align: center;
+  padding: 0 0;
+}
+
+footer {
+  margin: 15em 0em;
+  background-color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  padding: 20px 25%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-size: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-size: 100%;
+  }
+}
